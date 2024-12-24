@@ -59,7 +59,7 @@ include "../layouts/head.php";
             <button type="submit" class="w-full py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">Actualizar Perfil</button>
         </form>
 
-        <form action="delete_account.php" method="POST" class="mt-6">
+        <form action="../controllers/delete_profile_controller.php " method="POST" class="mt-6">
             <button type="submit" class="w-full py-3 bg-red-600 text-white font-medium rounded-lg hover:bg-red-700 transition duration-300">Eliminar Cuenta</button>
         </form>
     </div>
