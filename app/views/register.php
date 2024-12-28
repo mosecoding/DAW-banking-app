@@ -42,16 +42,6 @@ include "../layouts/head.php";
                         required>
                 </div>
                 <div class="mb-4">
-                    <label for="lastName" class="block text-gray-700 font-semibold">Apellidos</label>
-                    <input
-                        type="text"
-                        id="lastName"
-                        name="lastName"
-                        class="w-full mt-2 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="Doe"
-                        required>
-                </div>
-                <div class="mb-4">
                     <label for="email" class="block text-gray-700 font-semibold">Correo</label>
                     <input
                         type="email"
